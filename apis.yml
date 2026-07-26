@@ -1,22 +1,64 @@
 aid: datost
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datost.png
 name: Datost
-description: Datost is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Datost Inc. is a New York applied research lab building hardware and intelligent
+  systems that operate in your environment without demanding constant attention —
+  "computers that come after the screen." Its first public product is ED1TH, a
+  25-gram pair of AI augmented-reality smart glasses with a 640x480 green Micro-LED
+  in-lens display readable in direct sunlight, hot-swap battery cells, a companion
+  steel smart ring for gesture control, and a privacy-first design with zero cameras
+  and a single hardware-mutable microphone. ED1TH runs ED1TH-OS and handles email,
+  calendar, turn-by-turn navigation, live translation, and meeting transcription in
+  the wearer's field of view. Datost is backed by Y Combinator (Spring 2026) and
+  OpenAI. As a consumer hardware and applied-research company, Datost does not
+  currently publish a public web API, OpenAPI, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/datost/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- openai
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Hardware
+- Augmented Reality
+- Wearables
+- Artificial Intelligence
+- Smart Glasses
+- Consumer Electronics
+- Optics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/datost-domain-security.yml
+- type: Website
+  url: https://datost.com
+- type: Product
+  url: https://ed1th.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

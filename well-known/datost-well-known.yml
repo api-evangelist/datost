@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: probed
+source: https://datost.com
+host: https://datost.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: >-
+  No /.well-known discovery documents are published. Datost is a consumer hardware
+  and applied-research company (ED1TH AR smart glasses) with no public web API,
+  OAuth server, or API catalog surface. Absence recorded as valid probe data.
